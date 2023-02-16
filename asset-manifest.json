@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/consultorio_elina/static/css/main.78017551.css",
+    "main.js": "/consultorio_elina/static/js/main.e4adf011.js",
+    "index.html": "/consultorio_elina/index.html",
+    "main.78017551.css.map": "/consultorio_elina/static/css/main.78017551.css.map",
+    "main.e4adf011.js.map": "/consultorio_elina/static/js/main.e4adf011.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78017551.css",
+    "static/js/main.e4adf011.js"
+  ]
+}
