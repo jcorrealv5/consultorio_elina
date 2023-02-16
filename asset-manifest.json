@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/consultorio_elina/static/css/main.78017551.css",
-    "main.js": "/consultorio_elina/static/js/main.cbea70ea.js",
+    "main.css": "/consultorio_elina/static/css/main.e75634fd.css",
+    "main.js": "/consultorio_elina/static/js/main.47cd688b.js",
     "index.html": "/consultorio_elina/index.html",
-    "main.78017551.css.map": "/consultorio_elina/static/css/main.78017551.css.map",
-    "main.cbea70ea.js.map": "/consultorio_elina/static/js/main.cbea70ea.js.map"
+    "main.e75634fd.css.map": "/consultorio_elina/static/css/main.e75634fd.css.map",
+    "main.47cd688b.js.map": "/consultorio_elina/static/js/main.47cd688b.js.map"
   },
   "entrypoints": [
-    "static/css/main.78017551.css",
-    "static/js/main.cbea70ea.js"
+    "static/css/main.e75634fd.css",
+    "static/js/main.47cd688b.js"
   ]
 }
