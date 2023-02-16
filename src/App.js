@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Menu from './Menu'
 import Categories from './Categories'
 import items from './data'
+import Footer from './Component/Footer'
 
 const allCategories = ['all', ...new Set(items.map((item) => item.category))]
 
@@ -25,8 +26,10 @@ function App() {
           <div className="underline"></div>
         </div>
         <Categories categories={categories} filterItems={filterItems} />
-        <Menu items={menuItems} />
+        <Menu items={menuItems} />         
       </section>
+      <p><Footer/></p>       
+      
     </main>
   )
 }
