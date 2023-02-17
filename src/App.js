@@ -1,23 +1,23 @@
-import React, { useState } from 'react'
-import Menu from './Menu'
-import Categories from './Categories'
-import items from './data'
-import Footer from './Component/Footer'
+import React, { useState } from "react";
+import Menu from "./Menu";
+import Categories from "./Categories";
+import items from "./data";
+import Footer from "./Component/Footer";
 
-const allCategories = ['all', ...new Set(items.map((item) => item.category))]
+const allCategories = ["all", ...new Set(items.map((item) => item.category))];
 
 function App() {
-  const [menuItems, setMenuItems] = useState(items)
-  const [categories] = useState(allCategories)
+  const [menuItems, setMenuItems] = useState(items);
+  const [categories] = useState(allCategories);
 
   const filterItems = (category) => {
-    if (category === 'all') {
-      setMenuItems(items)
-      return
+    if (category === "all") {
+      setMenuItems(items);
+      return;
     }
-    const newItems = items.filter((item) => item.category === category)
-    setMenuItems(newItems)
-  }
+    const newItems = items.filter((item) => item.category === category);
+    setMenuItems(newItems);
+  };
   return (
     <main>
       <section className="menu section">
@@ -26,12 +26,13 @@ function App() {
           <div className="underline"></div>
         </div>
         <Categories categories={categories} filterItems={filterItems} />
-        <Menu items={menuItems} />         
+        <Menu items={menuItems} />
       </section>
-      <p><Footer/></p>       
-      
+      <p>
+        <Footer />
+      </p>
     </main>
-  )
+  );
 }
 
-export default App
+export default App;
